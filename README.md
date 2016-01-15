@@ -25,8 +25,12 @@ Dans la console :
     $ npm install 
     $ bower install 
 
-                  
-                  
-
+Hook git :
+    Créer un fichier post-merge dans le dossier .git/hooks
+    Éditez le fichier ainsi:
     
-Hook git
+    #!/bin/bash
+    echo 'building site'
+    php build/build.php
+    
+Lorsque vous ferez un git pull, le build.php s'exécutera et construira le site dans le dossier 'dist'
