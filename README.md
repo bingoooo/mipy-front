@@ -26,11 +26,13 @@ Dans la console :
     $ bower install 
 
 Hook git :
-    Créer un fichier post-merge dans le dossier .git/hooks
+    Créer un fichier `post-merge` dans le dossier `/.git/hooks`
     Éditez le fichier ainsi:
     
     #!/bin/bash
     echo 'building site'
     php build/build.php
     
-Lorsque vous ferez un git pull, le build.php s'exécutera et construira le site dans le dossier 'dist'
+Dans la console, passer la commande : `chmod +x post-merge`
+afin que le hook ait l'autorisation d'executer des commandes.
+Par la suite, lorsque vous ferez un git pull, le build.php s'exécutera et construira le site dans le dossier 'dist'
