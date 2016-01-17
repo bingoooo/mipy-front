@@ -1,10 +1,10 @@
 #partenaire{
-    color: black; 
+    color: white; 
 
 	&:visited{
     text-decoration: none; }
     &:hover {
-    color: white; }	
+    color: rgba(0,0,0,0.4); }	
 
 }
 
