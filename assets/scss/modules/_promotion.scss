@@ -1,0 +1,24 @@
+.ui.four.cards .sm-card {
+	margin:0px;
+	width: 25%;
+}
+
+.sm-card {
+	position:relative;
+}
+
+.sm-card .sm-card-images .sm-card-image-hover{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	transition: all ease 166ms;
+		}
+
+.sm-card:hover .sm-card-images .sm-card-image-hover{
+	opacity:0.7;
+}
+
+.sm-card-extra{
+	
+}
