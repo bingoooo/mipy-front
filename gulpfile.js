@@ -17,7 +17,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./public"
     });
 
-    gulp.watch("assets/scss/*.scss", ['sass']);
+    gulp.watch("assets/scss/**/*.scss", ['sass']);
     gulp.watch("assets/js/*.js", ['jshint','browserify']);
     gulp.watch("public/*.html").on('change', browserSync.reload);
 });
