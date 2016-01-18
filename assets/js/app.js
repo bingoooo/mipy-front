@@ -5,7 +5,8 @@
 window.$ = require('jquery');
 var tab = {
 	"promotion": require('./promotion.js'),
-	"emploiShowModalbox": require('./emploiShowModalbox.js')
+	"emploiShowModalbox": require('./emploiShowModalbox.js'),
+	"actualites": require('./actualites.js')
 };
 
 $("#main_menu a").click(function(e){
@@ -15,7 +16,7 @@ $("#main_menu a").click(function(e){
 		$("#main_menu .active").removeClass("active");
 		$(this).addClass("active");
 		var xs = $(this).attr('x-script');
-		if (typeof xs != 'undefined') {
+		if (typeof xs !== 'undefined') {
 			tab[xs]();
 		}
 	});
