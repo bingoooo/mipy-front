@@ -1,8 +1,16 @@
-.actualites div.ui.segment {
+.actualites {
+	
+	margin-bottom:120px;
+
+	div.ui.segment {
     height:100%;
-}
-.actualites .ui.basic.segment {
+	}
+	.ui.basic.segment {
     background-color:#FFF;
     border:1px solid #CCC;
     border-radius: 0.285714rem;
+	}
+	.titre_actu {
+	margin-top:60px;
+	}
 }
