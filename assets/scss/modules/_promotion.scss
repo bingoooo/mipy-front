@@ -15,6 +15,7 @@
 .sm-card {
 	position:relative;
 	overflow:hidden;
+	
 }
 
 .sm-card .sm-card-images .sm-card-image-hover{
@@ -42,12 +43,13 @@
 	padding:12px;
 	background-color: rgba(0,0,0,0.6);
 	transform: translateY(85%);
+	transition: all 332ms ease-out;
 	height:350px;
 }
 
 .seb-identite {
 	color:white;
-	font-size:20px;
+	font-size:23px;
 	line-height:2.5em;
 }
 
@@ -55,11 +57,13 @@
 transform: translateY(0%);
 height:100%;
 padding-top:120px;
+transition: all 332ms ease-out;
 }
 
 .seb-presentation {
 	font-size:17px;
-	line-height:0.5em;
+	line-height:0.2em;
+	color: #E0E0E0;
 }
 
 
