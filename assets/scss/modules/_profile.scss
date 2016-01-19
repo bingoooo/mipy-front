@@ -10,28 +10,19 @@
 			border-radius:0%;
 			height: 310px; 
 			background-size: cover;
-			border:5px solid #f0f0f0;
-		}
+			border:5px solid #f0f0f0;}
 	}
 
 	.to.bio {
 		text-align: auto; 
 		h2.ui.horizontal.divider {
-
 			font-size: 18px; }
 			.bio_paragraphe {
 				text-align: justify;
-				font-family: ubuntu;
-			}
+				font-family: ubuntu; }
 		}
-	.to.projets_en_cours {
-		.to.liste {
-			padding-left:0;
-			.to.list_projet {
-				list-style: none;
-				padding:3px;
-				text-align: center;
-			}
-		}
+		.to.list_projet {
+			list-style: none;
+			padding:3px;
+			text-align: center;}
 	}
-}
