@@ -3,7 +3,7 @@
 //require('./alchimy.js');
 window.$ = require('jquery');
 require('../components/headroom.js/dist/jQuery.headroom.js');
-require('./main_menu.js');
+// require('./main_menu.js');
 var tab = {
 	"promotion": require('./promotion.js'),
 	"emploiShowModalbox": require('./emploiShowModalbox.js')

@@ -13,6 +13,3 @@ var menu = function(){
 // menu disparait
 $("#main_menu").headroom("destroy");
 };
-$(document).ready(function(){
-	menu.init();
-});
