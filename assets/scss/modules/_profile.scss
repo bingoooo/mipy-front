@@ -1,15 +1,35 @@
-img.ui.centered.medium.image {
-	border-radius:50%;
-	width:200px;
-	height: 240px;
+/* Profile css */
+#bandeau {
+	background-color: #1b1c1d;
+	font-family: Open Sans, sans-serif;
+	color: white; 
+	img.ui.centered.medium.image {
+		border-radius:50%;
+		width:200px;
+		height: 240px;
+	}
+}
+
+#profile-bloc-menu {
+	text-align: center;
 }
 .bio {
-	padding: 30px;
 	text-align: auto; 
 	h2.ui.horizontal.divider {
 		text-align: center;
 		font-size: 21px; }
 		.bio_paragraphe {
 			text-align: justify;
-			font-family: ubuntu; }
+			font-family: ubuntu;}
 		}
+.projet {
+	.to.list_projet {
+		list-style: none;
+		text-align: center;
+	}
+		.to.link_projet {
+			text-decoration: none;
+			color:white;
+		}
+}
+
