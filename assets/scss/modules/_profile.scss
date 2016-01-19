@@ -7,9 +7,11 @@
 		font-family: Open Sans, sans-serif;
 		color: white; 
 		.to.ui.centered.medium.image {
-			border-radius:50%;
-			width:200px;
-			height: 240px;
+			 border-radius:0%;
+			/* width:200px;
+			height: 240px; */
+			border:5px solid #f0f0f0;
+			margin-top: 5px;
 		}
 	}
 
@@ -17,7 +19,7 @@
 		text-align: auto; 
 		h2.ui.horizontal.divider {
 
-			font-size: 21px; }
+			font-size: 18px; }
 			.bio_paragraphe {
 				text-align: justify;
 				font-family: ubuntu;
