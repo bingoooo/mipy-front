@@ -6,9 +6,6 @@ var promo = function(){
         var tpl = $('#cardTemplate').html();
         var html = Mustache.render(tpl,data);
         $('#sm-cards').html(html);   
-    });
-	
+    });	
 };
-
-
 module.exports = promo;

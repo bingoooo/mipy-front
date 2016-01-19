@@ -1,35 +1,36 @@
 /* Profile css */
-#bandeau {
-	background-color: #1b1c1d;
-	font-family: Open Sans, sans-serif;
-	color: white; 
-	img.ui.centered.medium.image {
-		border-radius:50%;
-		width:200px;
-		height: 240px;
+#to-profile {
+	margin-top:-2px;
+	margin-bottom:60px;
+	#to_bandeau {
+		background-color: #1b1c1d;
+		font-family: Open Sans, sans-serif;
+		color: white; 
+		.to.ui.centered.medium.image {
+			border-radius:50%;
+			width:200px;
+			height: 240px;
+		}
+	}
+
+	.bio {
+		text-align: auto; 
+		h2.ui.horizontal.divider {
+
+			font-size: 21px; }
+			.bio_paragraphe {
+				text-align: justify;
+				font-family: ubuntu;
+			}
+		}
+	.to.projets_en_cours {
+		.to.liste {
+			padding-left:0;
+			.to.list_projet {
+				list-style: none;
+				padding:3px;
+				text-align: center;
+			}
+		}
 	}
 }
-
-#profile-bloc-menu {
-	text-align: center;
-}
-.bio {
-	text-align: auto; 
-	h2.ui.horizontal.divider {
-		text-align: center;
-		font-size: 21px; }
-		.bio_paragraphe {
-			text-align: justify;
-			font-family: ubuntu;}
-		}
-.projet {
-	.to.list_projet {
-		list-style: none;
-		text-align: center;
-	}
-		.to.link_projet {
-			text-decoration: none;
-			color:white;
-		}
-}
-

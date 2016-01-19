@@ -5,7 +5,8 @@
 window.$ = require('jquery');
 var tab = {
 	"promotion": require('./promotion.js'),
-	"emploiShowModalbox": require('./emploiShowModalbox.js')
+	"emploiShowModalbox": require('./emploiShowModalbox.js'),
+	"pageProfile":require('./pageProfile.js')
 };
 
 $("#main_menu a").click(function(e){
