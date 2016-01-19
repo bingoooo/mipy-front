@@ -1,5 +1,5 @@
 'use strict'
-$(document).ready(function(){
+var emploi = function(){
 
 	$('body').on('click','.ui.button',function(){
 		$('.ui.modal').show();
@@ -24,4 +24,7 @@ $(document).ready(function(){
 		var toAdd = $(".text_annonces").val();
 		$(".annonces").append('<div class="item">'+ toAdd + '</div');
 	});*/
-});
+
+};
+
+module.exports = emploi;
