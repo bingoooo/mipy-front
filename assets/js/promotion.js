@@ -1,12 +1,14 @@
+'use strict';
+var Mustache = require('mustache');
 
-$(document).ready(function(){
+var promo = function(){
     $.getJSON("user.json", function(data){
         var tpl = $('#cardTemplate').html();
         var html = Mustache.render(tpl,data);
-        $('#sebcards').html(html);   
+        $('#sm-cards').html(html);   
     });
+	
+};
 
-});
 
-
-
+module.exports = promo;

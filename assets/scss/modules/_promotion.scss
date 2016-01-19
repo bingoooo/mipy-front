@@ -1,0 +1,49 @@
+
+
+.ui.container {
+  // marge top & bottom
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+
+
+.ui.four.cards .sm-card {
+	margin:0px;
+}
+
+.sm-card {
+	position:relative;
+}
+
+.sm-card .sm-card-images .sm-card-image-hover{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	transition: all ease 166ms;
+}
+
+.sm-card:hover .sm-card-images .sm-card-image-hover{
+	opacity:0.7;
+}
+
+.sm-card-extra{
+
+	position:absolute;
+	bottom:4px;
+	text-align: center;
+	width:100%;
+	padding:12px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.sebidentite {
+	color:white;
+	font-size:20px;
+}
+
+
+
+
+
