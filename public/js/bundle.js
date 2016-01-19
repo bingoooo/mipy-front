@@ -16,20 +16,12 @@ module.exports = actus;
 
 //require('./alchimy.js');
 
-<<<<<<< HEAD
 window.$ = require('jquery');
 var tab = {
 	"promotion": require('./promotion.js'),
 	"emploiShowModalbox": require('./emploiShowModalbox.js'),
 	"actualites": require('./actualites.js')
 };
-=======
-$(document).ready(function(){
-	app.init();
-});
-},{"jquery":5,"mustache":6}],2:[function(require,module,exports){
-"use strict";
->>>>>>> marie
 
 $("#main_menu a").click(function(e){
 		e.preventDefault();

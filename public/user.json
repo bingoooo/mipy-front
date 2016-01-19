@@ -1,6 +1,6 @@
 { "users" :	[
 	{
-		"id": "Semere Binian",
+		"id": "Semere Biniam",
 		"portrait": "img/p1_biniam.jpg",
 		"overlay": "img/p1_biniam-alt.jpg"
 	},
@@ -20,7 +20,7 @@
 		"overlay": "img/p1_allan-alt.jpg"
 	},
 	{
-		"id": "Justin Chaikhy",
+		"id": "Justin Chaikhi",
 		"portrait": "img/p1_justin.jpg",
 		"overlay": "img/p1_justin-alt.jpg"
 	},
@@ -35,8 +35,8 @@
 	},
 	{
 		"id": "Robin Fournier",
-		"portrait": "",
-		"overlay": ""
+		"portrait": "img/p1_robin.jpg",
+		"overlay": "img/p1_robin.jpg"
 	},
 	{
 		"id": "Thomas Goudenove",
