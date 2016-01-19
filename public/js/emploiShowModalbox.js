@@ -1,27 +1,25 @@
 'use strict'
-$(document).ready(function(){
+var emploi = function(){
 
-	$('body').on('click','.ui.button',function(){
-		$('.ui.modal').show();
+	$('body').on('click','.rl-grobouton',function(){
+		$('.rl-modal').show();
 
 	});
 
-	$('body').on('click','.close.icon', function(){
-		$('.ui.modal').hide();
+	$('body').on('click','.rl-fermeture', function(){
+		$('.rl-modal').hide();
 	});
 
-	$('body').on('click','.ui.positive.right.labeled.icon.button', function(){
-		$('.ui.modal').hide();
+	$('body').on('click','.rl-envoyer', function(){
+		$('.rl-modal').hide();
 	});
 
-	/*$('.field').on('submit',function(){
-			event.preventDefault();
-			var toAdd = $('.text_annonces').val();
-			$('.annonces').append('<div class="item">'+ toAdd + '</div');
+	$('body').on('click','.rl-croix', function(){
+		$('.rl-modal').hide();
 	});
 
-	$(".ui.positive.right.labeled.icon.button").click(function(){
-		var toAdd = $(".text_annonces").val();
-		$(".annonces").append('<div class="item">'+ toAdd + '</div');
-	});*/
-});
+
+
+};
+
+module.exports = emploi;
