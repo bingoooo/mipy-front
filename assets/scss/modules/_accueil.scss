@@ -1,0 +1,45 @@
+.j-menu-main {
+	height: 110px;
+	opacity: 0.95;
+}
+
+.j-menu-logo {
+	width: 500px;
+	height: 175px;
+	background-image: url(../img/logo-md.svg);
+}
+
+.image-formation {
+	top: 0;
+}
+
+.text1 {
+	margin-top: 60px;
+}
+
+.photo-header {
+	margin-top: -40px;
+}
+
+.photo-contenu {
+	width: calc(100% - 50px);
+}
+
+.accueil-titre-h2 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-family: 'Open Sans';
+	font-size: 3em;
+}
+
+.block-accueil {
+	margin-top: 60px;
+}
+
+p {
+	font-family: 'Ubuntu';
+	font-size: 1.25em;
+	text-align: justify;
+}
