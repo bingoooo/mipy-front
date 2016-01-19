@@ -1,9 +1,9 @@
 "use strict";
 
 //require('./alchimy.js');
-
 window.$ = require('jquery');
 var tab = {
+	"menu": require('./main_menu.js'),
 	"promotion": require('./promotion.js'),
 	"emploiShowModalbox": require('./emploiShowModalbox.js')
 };
