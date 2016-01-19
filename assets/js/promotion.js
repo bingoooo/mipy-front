@@ -7,8 +7,10 @@ var promo = function(){
         var html = Mustache.render(tpl,data);
         $('#sm-cards').html(html);   
     });
-	
-};
+});
+    
+
+
 
 
 module.exports = promo;
