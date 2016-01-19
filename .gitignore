@@ -103,3 +103,4 @@ node_modules
 
 assets/components
 index.php
+public/js/bundle.js
