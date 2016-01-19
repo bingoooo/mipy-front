@@ -1,15 +1,45 @@
-.johnson.close.icon:hover {
+.rl-close-icon:hover {
 	cursor:  pointer;
-	border-radius:10px;
 }
-.johnson.ui.segment.bloc.annonces {
+.rl-annonces.rl-annonces.rl-annonces {
 	background-color: #ECEFF1;
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 3px 3px 3px grey;
 }
 
-.johnson.ui.massive.green.button {
-	box-shadow: 3px 3px 3px pink;
+.rl-grobouton.rl-grobouton.rl-grobouton {
+	box-shadow: 2px 2px 2px #FFFF00;
+	margin-bottom: 15px;
 }
-.johnson.ui.fullscreen.modal {
+
+.rl-modal.rl-modal.rl-modal {
 	top: 20%;
 }
+
+.rl-titres h1 {
+	display:block;
+}
+
+.rl-container {
+	margin-bottom: 120px;
+	margin-top: 60px;
+}
+.rl-propose.rl-propose.rl-propose {
+	box-shadow: 3px 3px 3px grey;
+} 
+.rl-cherche.rl-cherche.rl-cherche {
+	box-shadow: 3px 3px 3px grey;
+}
+
+.rl-fermer-modal {
+	padding-left: 13px;
+}
+.rl-bandeau {
+	width: 1600px;
+	height: 100px;
+	padding-top: 30px;
+}
+
+.rl-bandeau.ui.segment h1 {
+	padding-top: 17px;
+}
+
