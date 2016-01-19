@@ -18,7 +18,7 @@ var emploi = function(){
 		$('.rl-modal').hide();
 	});
 
-
+/*Ouverture et fermeture de la modalbox à l'aide des boutons*/
 
 };
 
