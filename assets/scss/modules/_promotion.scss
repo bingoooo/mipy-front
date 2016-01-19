@@ -1,0 +1,69 @@
+
+
+.ui.container {
+  // marge top & bottom 
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+
+
+.ui.four.cards .sm-card {
+	margin:0px;
+}
+
+.sm-card {
+	position:relative;
+	overflow:hidden;
+}
+
+.sm-card .sm-card-images .sm-card-image-hover{
+
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	transition: all ease 166ms;
+
+}
+
+.sm-card:hover .sm-card-images .sm-card-image-hover{
+	opacity:0.7;
+
+
+}
+
+.sm-card-extra{
+	top:0;
+	position:absolute;
+	bottom:4px;
+	text-align: center;
+	width:100%;
+	padding:12px;
+	background-color: rgba(0,0,0,0.6);
+	transform: translateY(85%);
+	height:350px;
+}
+
+.seb-identite {
+	color:white;
+	font-size:20px;
+	line-height:2.5em;
+}
+
+.sm-card:hover .sm-card-extra{
+transform: translateY(0%);
+height:100%;
+padding-top:120px;
+}
+
+.seb-presentation {
+	font-size:17px;
+	line-height:0.5em;
+}
+
+
+
+
+
+
