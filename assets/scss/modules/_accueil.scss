@@ -3,20 +3,20 @@
 	opacity: 0.95;
 	.j-menu-logo {
 		width: 200px;
-		background-image: url(../img/logo-xs.svg);
+		background-image: url(../img/logo-xs_jne.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		margin-left: 25px;
- 	   	margin-top: 6px;
+ 	   	margin-top: 10px;
 	}
 	&.headroom--top .j-menu-logo {
 		@media screen and (min-width: 768px) {
-			background-image: url(../img/logo-md.svg);
+			background-image: url(../img/logo-md_jne.svg);
 			height: 175px;
 			width: 300px;
 		}
 		@media screen and (min-width: 1201px) {
-			background-image: url(../img/logo.svg);
+			background-image: url(../img/logo_jne.svg);
 			height: 400px;
 		}
 	}
@@ -70,4 +70,6 @@ p {
 }
 .bh-tweet {
 	font-size: 22px;
+	line-height: 1.2;
+    text-align: center;
 }
