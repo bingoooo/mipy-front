@@ -2,15 +2,18 @@
 	height: 110px;
 	opacity: 0.95;
 	.j-menu-logo {
-		width: 500px;
+		width: 200px;
 		background-image: url(../img/logo-xs.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
+		margin-left: 25px;
+ 	   	margin-top: 6px;
 	}
 	&.headroom--top .j-menu-logo {
 		@media screen and (min-width: 768px) {
 			background-image: url(../img/logo-md.svg);
 			height: 175px;
+			width: 300px;
 		}
 		@media screen and (min-width: 1201px) {
 			background-image: url(../img/logo.svg);

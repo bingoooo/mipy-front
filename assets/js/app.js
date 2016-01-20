@@ -25,4 +25,4 @@ var menu = (function(){
 
 if ($('.fg-hero').length > 0){
 	menu();
-};
+}
