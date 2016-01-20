@@ -53,11 +53,13 @@
 .block-accueil {
 	margin-top: 60px;
 }
-
-p {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu';
+}
+p {
+	font-family: 'Open Sans';
+	font-weight: 400;
 	font-size: 1.25em;
-	text-align: justify;
 }
 
 .menu-footer {

@@ -11,6 +11,7 @@ require('./pageProfile.js');
 
 
 var menu = (function(){
+	//if ($('.fg-hero').html());
 	$("#main_menu").headroom({
 		"offset": 405,
 		"tolerance": 5,
@@ -20,4 +21,8 @@ var menu = (function(){
 			"unpinned": "slideUp"
 		}
 	});
-})();
+});
+
+if ($('.fg-hero').length > 0){
+	menu();
+};
