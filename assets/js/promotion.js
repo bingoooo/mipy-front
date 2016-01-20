@@ -9,4 +9,7 @@ var promo = function(){
 
     });	
 };
-module.exports = promo;
+
+if ($("#page-promo").length > 0) {
+	promo();
+}

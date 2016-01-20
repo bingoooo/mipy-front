@@ -11,4 +11,7 @@ var profile = function(){
 	});
 
 };
-module.exports = profile;
+
+if ($("#page-profile").length > 0) {
+	promo();
+}

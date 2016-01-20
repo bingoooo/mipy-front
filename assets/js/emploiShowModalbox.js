@@ -1,6 +1,6 @@
 'use strict';
-var emploi = function(){
-	console.log('page emploi');
+
+
 	$('body').on('click','.rl-grobouton',function(){
 		$('.rl-modal').show();
 
@@ -18,8 +18,3 @@ var emploi = function(){
 		$('.rl-modal').hide();
 	});
 
-
-
-};
-
-module.exports = emploi;

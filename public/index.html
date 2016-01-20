@@ -9,74 +9,45 @@
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
-
   <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
- <div id="main_menu" class="ui top fixed inverted pointing menu">
+<div id="main_menu" class="ui top fixed inverted pointing menu j-menu-main">
+
+  <a class="j-menu-logo" href="/">&nbsp</a>
+
   <div class= "right menu">
-    <a class="item" href="accueil.html">Accueil</a>
-    <a class="item" href="formation.html">Formation</a>
-    <a class="item" x-script="promotion" href="promotion.html">Promotions</a>
-    <a class="item" x-script="actualites" href="actualites.html">Actu & events</a>
-    <a class="item" x-script="emploiShowModalbox" href="emploi.html">Emploi</a>
-    <a class="item" href="partenaires.html">Partenaires</a>
-    <a class="item" x-script="pageProfile" href="profile.html">Profils</a>
-    <a class="item" href="temoignage.html">Témoignages</a>
-    <a class="item" href="team.html">Équipe</a>
-    <a class="item" href="contact.html">Contact</a>
-  </div>
-</div>
-<div class="mobile only container">
-  <div class="ui compact menu">
-    <div class="ui simple dropdown item">
-      <i class="sidebar icon"></i>
-      <div class="menu">
-        <a class="item">Accueil</a>
-        <a class="item">Formation</a>
-        <a class="item">Promotions</a>
-        <a class="item">Actu & events</a>
-        <a class="item">Contact</a>
-      </div>
-    </div>
+    <a class="item" href="/formdev.html"><i class="edit icon"></i> Formation</a>
+    <a class="item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
+    <a class="item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
+    <a class="item" href="/contact.html"><i class="icon mail"></i> Contact</a>
   </div>
 </div>
 
-<?php content('start') ?>
-<div class="fg-hero">
-  <p class="fg-hero-text">Développeur de talents</p>
-</div>
-
-<section id="main">
   <?= $content ?>
-</section>
-<?php content('stop') ?>
 
 
-<footer class="ui bottom fixed attached centred inverted segment">
-  <div class="ui inverted secondary pointing fluid vertical menu">
-    <a class="item" href="contact.html">Contact</a>
-    <a class="item" href="">Mentions légales</a>
-    <a class="item" href="">Copyright</a>
-    <a class="item" href="">Crédits</a>
-    <a class="item" href="accueil.html">Accueil</a>
-    <a class="item" href="formdev.html">Formation</a>
-    <a class="item" x-script="promotion" href="promotion.html">Promotions</a>
-    <a class="item" href="actualites.html">Actu & events</a>
-    <a class="item" x-script="emploiShowModalbox" href="emploi.html">Emploi</a>
-    <a class="item" href="partenaires.html">Partenaires</a>
-    <a class="item" href="profile.html">Profils</a>
-    <a class="item" href="temoignage.html">Témoignages</a>
-    <a class="item" href="team.html">Équipe</a>
-    
-    <a href="https://github.com/SimplonTlse"><button class="ui circular github icon button" ><i class="github icon"></i></button></a>
+<div class="ui bottom fixed attached centred inverted segment">
+  <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
+    <a class="item" href="/accueil.html">Accueil</a>
+    <a class="item" href="/promotion.html">Promotions</a>
+    <a class="item" href="/partenaires.html">Partenaires</a>
+    <a class="item" href="/temoignage.html">Témoignages</a>
+    <a class="item" href="/team.html">Équipe</a>
+    <a class="item" href="/contact.html">Contact</a>
+    <a class="item" href="#">Mentions légales</a>
+  </div>
+  <div class="ui inverted secondary pointing fluid vertical menu right">
+    <button class="ui circular github icon button"><i class="github icon"></i></button>
     <button class="ui circular facebook icon button"><i class="facebook icon"></i></button>
-    <a href="https://twitter.com/simplonMIP"><button class="ui circular twitter icon button"><i class="twitter icon"></i></button></a>
+    <button class="ui circular twitter icon button"><i class="twitter icon"></i></button>
     <button class="ui circular linkedin icon button"><i class="linkedin icon"></i></button>
     <button class="ui circular google plus icon button"><i class="google plus icon"></i></button>
   </div>
-</footer>
+</div>
 
 <!-- chargement des scripts -->
 <script src="js/bundle.js"></script>

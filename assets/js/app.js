@@ -1,23 +1,23 @@
 "use strict";
 
-//require('./alchimy.js');
+window.$ = window.jQuery = require('jquery');
+require('../components/headroom.js/dist/headroom.js');
+require('../components/headroom.js/dist/jQuery.headroom.js');
 
-window.$ = require('jquery');
-var tab = {
-	"promotion": require('./promotion.js'),
-	"emploiShowModalbox": require('./emploiShowModalbox.js'),
-	"pageProfile":require('./pageProfile.js'),
-	"actualites": require('./actualites.js')
-};
+require('./promotion.js');
+require('./emploiShowModalbox.js');
+require('./pageProfile.js');
+	//"actualites": require('./actualites.js')
 
-$("#main_menu a").click(function(e){
-		e.preventDefault();
-		var url = $(this).attr('href');
-		$('#main').load('partials/'+url);
-		$("#main_menu .active").removeClass("active");
-		$(this).addClass("active");
-		var xs = $(this).attr('x-script');
-		if (typeof xs !== 'undefined') {
-			tab[xs]();
+
+var menu = (function(){
+	$("#main_menu").headroom({
+		"offset": 405,
+		"tolerance": 5,
+		"classes": {
+			"initial": "animated",
+			"pinned": "slideDown",
+			"unpinned": "slideUp"
 		}
 	});
+})();
